@@ -168,7 +168,7 @@ class _ChadaBuzzAppState extends State<ChadaBuzzApp> {
                   topRight: Radius.circular(60),
                 ),
               ),
-              child: SizedBox(height: deviceHeight * 0.20),
+              child: SizedBox(height: deviceHeight * 0.50),
             ).animate().flipV(duration: 500.ms, delay: 500.ms),
           ],
         ),
